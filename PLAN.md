@@ -259,6 +259,7 @@ private onRepositoryTabCloseClick = (
 }
 
 .repository-tab-title {
+  font-family:var(--font-family-sans-serif);
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
