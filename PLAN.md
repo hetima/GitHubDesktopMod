@@ -229,7 +229,7 @@ private onRepositoryTabCloseClick = (
   border: 1px solid color-mix(in srgb, var(--box-border-color) 55%, transparent);
   border-top: 0;
   border-radius: 0 0 5px 5px;
-  font-size: var(--font-size-md);
+  font-size: 12px;
   line-height: 24px;
 
   &.selected {
