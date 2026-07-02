@@ -25,7 +25,13 @@ git clone https://github.com/desktop/desktop
 目的のバージョンに合わせます
 
 ```
-git checkout -b release-3.5.12
+git checkout -b release-3.6.2
+```
+
+あるいはこんな感じでリリースタグ指定してクローン
+
+```
+git clone --single-branch --depth 1 -b release-3.6.2 --recurse-submodules https://github.com/desktop/desktop
 ```
 
 ビルドには yarn とかいろいろ必要ですが、足りないパッケージはAIに頼めばなんとかしてくれるでしょう。npmくらいは最初から入れといたほうがいいかもしれません。

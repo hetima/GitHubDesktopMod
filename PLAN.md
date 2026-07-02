@@ -292,7 +292,7 @@ private onRepositoryTabCloseClick = (
 
 ## Build And Copy
 
-`desktop` で production build する。
+`desktop` で production build する。yarn が存在しなかったら corepack yarn で実行。
 
 ```powershell
 cd desktop
